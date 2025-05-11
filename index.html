@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz para Programadores</title>
+  <meta name="description" content="Quiz para programadores, teste seus conhecimentos em programação.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Quiz interativo para programadores</h1>
+    <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+  </header>
+
+  <main>
+    <form id="quizForm">
+      <!-- Pergunta 1 -->
+      <section>
+        <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas web?</h2>
+        <input type="radio" id="p1a" name="q1" value="Python">
+        <label for="p1a">Python</label><br>
+        <input type="radio" id="p1b" name="q1" value="HTML">
+        <label for="p1b">HTML</label><br>
+        <input type="radio" id="p1c" name="q1" value="JavaScript">
+        <label for="p1c">JavaScript</label><br>
+        <input type="radio" id="p1d" name="q1" value="Ruby">
+        <label for="p1d">Ruby</label><br>
+      </section>
+
+      <!-- Pergunta 2 -->
+      <section>
+        <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ____</h2>
+        <input type="text" id="q2" name="q2" placeholder="Digite sua resposta aqui">
+      </section>
+
+      <!-- Pergunta 3 -->
+      <section>
+        <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+        <input type="password" id="q3" name="q3" placeholder="Digite sua senha aqui">
+      </section>
+
+      <!-- Pergunta 4 -->
+      <section>
+        <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?</h2>
+        <input type="date" id="q4" name="q4">
+      </section>
+
+      <!-- Pergunta 5 -->
+      <section>
+        <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+        <input type="checkbox" id="p5a" name="q5" value="JavaScript">
+        <label for="p5a">JavaScript</label><br>
+        <input type="checkbox" id="p5b" name="q5" value="HTML">
+        <label for="p5b">HTML</label><br>
+        <input type="checkbox" id="p5c" name="q5" value="Java">
+        <label for="p5c">Java</label><br>
+        <input type="checkbox" id="p5d" name="q5" value="CSS">
+        <label for="p5d">CSS</label><br>
+      </section>
+
+      <!-- Pergunta 6 -->
+      <section>
+        <h2>Pergunta 6: Faça o upload de um arquivo contendo código HTML</h2>
+        <input type="file" id="q6" name="q6" accept=".html">
+      </section>
+
+      <!-- Pergunta 7 -->
+      <section>
+        <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+        <select name="q7" id="q7">
+          <option value="id">id</option>
+          <option value="type">type</option>
+          <option value="placeholder">placeholder</option>
+          <option value="name">name</option>
+        </select>
+      </section>
+
+      <!-- Pergunta 8 -->
+      <section>
+        <h2>Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+        <figure>
+          <img src="https://logo.svgcdn.com/l/java.png" alt="logotipo de uma linguagem de programação">
+          <figcaption>Logotipo de uma linguagem de programação</figcaption>
+        </figure>
+        <input type="text" id="q8" name="q8" placeholder="Digite sua resposta aqui">
+      </section>
+
+      <!-- Botão -->
+      <section>
+        <button type="submit">Finalizar Quiz</button>
+      </section>
+    </form>
+  </main>
+
+  <footer>
+    <p class="paragrafo">&copy; Quiz de programadores. Todos os direitos reservados</p>
+    <p class="paragrafo">Para conhecer mais projetos <a href="https://github.com/emanoel-simao">Clique aqui</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
